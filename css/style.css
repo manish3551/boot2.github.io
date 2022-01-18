@@ -1,0 +1,526 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation bar */
+#navbar{
+    background-color: #daac00;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+}
+#nav-saerch input{
+    background-color: #fcc302;
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+    position: relative;
+    left: 10px;
+}
+#nav-saerch input::placeholder{
+    color: #fff;
+}
+#nav-saerch button{
+    background-color: #00bec9;
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Banner Section */
+#banner{
+    background-color: #fcc302;
+    /* padding-bottom: 50px; */
+}
+#banner h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+#banner p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#banner-btn-1{
+    font-size: 16px;
+    background-color: #00bec9;
+    padding: 10px 20px;
+}
+#banner-btn-2{
+    font-size: 16px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-left: 40px;
+}
+
+/* veterinarian-1 section */
+#veterinarian-1 h2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+#veterinarian-1 p{
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+#veterinarian-1 button{
+    background-color: #fcc302;
+    font-size: 16px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+/* Service Section */
+#service{
+    background-color: #fcc302;
+}
+#service h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+#service .service-p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.service-3 img{
+    border: 5px solid white;
+    margin-bottom: 30px;
+}
+
+/* veterinarian-2 section */
+
+#veterinarian-2{
+    text-align: end;
+}
+#veterinarian-2 h2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+#veterinarian-2 p{
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+#veterinarian-2 button{
+    background-color: #fcc302;
+    font-size: 16px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+/* Shop Section */
+#shop{
+    background-color: #fcc302;
+}
+#shop h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+#shop .shop-p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.shop-3 img{
+    border: 5px solid white;
+    margin-bottom: 30px;
+}
+.shop-3 h4 span{
+    text-decoration: line-through;
+    padding-right: 20px;
+}
+.shop-3 button{
+    font-size: 16px;
+    background-color: #00bec9;
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+/* Team Section */
+#team h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+#team .team-p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#team .team-3 h3{
+    margin-top: 20px;
+}
+
+#team .team-3 .social-icon a{
+    text-decoration: none;
+    color: #fff;
+    /* margin-left: 10px; */
+}
+#team .team-3 .social-icon a i{
+    background-color: #daac00;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 50%;
+}
+ #team .team-3 .social-icon .fa-facebook-f{
+    padding: 5px 8px;
+}
+
+/* Counting Section */
+#count{
+    background-image: url(../images/icon-background.jpg);
+}
+.count-3 img{
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+
+/* Blog Section */
+#blog h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+#blog .blog-p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#blog .blog-3 h3{
+    margin-top: 20px;
+}
+.post-border{
+    border: 1px solid grey;
+    border-top: 0;
+    padding: 10px;
+    text-align: left;
+}
+.post-border h5{
+    font-weight: 600;
+}
+.post-border p{
+    font-size: 14px;
+}
+.post-border #para{
+    color: #00bec9;
+}
+.post-border a{
+    text-decoration: none;
+    color: #00bec9;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Footer Section */
+#footer{
+    background-color: #343434;
+    color: #fff;
+}
+#footer h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+.footer-3 a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-7 form{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#footer-search{
+    border: 0;
+    padding: 8px 40px;
+    background-color: #daac00;
+    color: #fff;
+    position: relative;
+    left: 10px;
+}
+#footer-btn{
+    border: 0;
+    padding: 3px 30px;
+    padding-bottom: 4px;
+    background-color: #00bec9;
+    border-radius: 0;
+    position: relative;
+        color: #fff;
+    font-size: 22px;
+}
+
+.footer-7 .social-icon a{
+    text-decoration: none;
+    color: #343434;
+    margin-left: 10px;
+}
+.footer-7 .social-icon a i{
+    background-color: #fff;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 50%;
+}
+.footer-7 .social-icon .fa-facebook-f{
+    padding: 8px 12px;
+}
+.footer-7 .social-icon .fa-whatsapp,.footer-7 .social-icon .fa-instagram{
+    padding: 8px 10px;
+}
+
+
+/* Media Quries  1100px*/
+
+@media only screen and (max-width:1100px){
+    #veterinarian-1 h2 {
+        padding-top: 11px;
+        padding-bottom: 35px;
+        font-size: 35px;
+    }
+    #veterinarian-1 p {
+        font-size: 18px;
+        padding-bottom: 40px;
+    }
+    #veterinarian-2 h2 {
+        padding-top: 11px;
+        padding-bottom: 35px;
+        font-size: 35px;
+    }
+    #veterinarian-2 p {
+        font-size: 18px;
+        padding-bottom: 40px;
+    }
+    .post-border{
+        padding: 10px 7px;
+    }
+    .post-border h5 {
+        font-size: 18px;
+    }
+    .post-border p {
+        font-size: 12px;
+    }
+    .footer-7 p{
+        font-size: 14px;
+    }
+    #footer-search {
+        padding: 8px 12px;
+    }
+    #footer-btn {
+        padding: 3px 15px;
+        top: -1px;
+        padding-bottom: 4px;
+    }
+    .footer-7 .social-icon a i {
+        font-size: 16px;
+    }
+}
+
+/* Media Quries 967px */
+
+@media only screen and (max-width:967px){
+
+    #banner h1 {
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    #banner p {
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+    #banner-image{
+        padding-top: 100px !important;
+    }
+    #veterinarian-1 h2 {
+        padding-top: 8px;
+        padding-bottom: 25px;
+        font-size: 25px;
+    }
+    #veterinarian-1 p {
+        font-size: 15px;
+        padding-bottom: 25px;
+    }
+    #service h1 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    #service .service-p {
+        font-size: 18px;
+        letter-spacing: 0;
+        padding-top: 5px;
+    }
+    .service-3 img {
+        margin-bottom: 20px;
+    }
+    #service .service-3 h3{
+        font-size: 20px;
+    }
+    #service .service-3 p{
+        font-size: 12px;
+    }
+    #veterinarian-2 h2 {
+        padding-top: 10px;
+        padding-bottom: 25px;
+        font-size: 25px;
+    }
+    #veterinarian-2 p {
+        font-size: 15px;
+        padding-bottom: 25px;
+    }
+    #shop h1 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    #shop .shop-p {
+        font-size: 18px;
+        letter-spacing: 0;
+        padding-top: 5px;
+    }
+    #team h1 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    #team .team-p {
+        font-size: 18px;
+        letter-spacing: 0;
+        padding-top: 5px;
+    }
+    #team .team-3 h3 {
+        font-size: 18px;
+    }
+    #team .team-3 p{
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+    #blog h1 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    #blog .blog-p {
+        font-size: 18px;
+        letter-spacing: 0;
+        padding-top: 5px;
+    }
+    .post-border h5 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .post-border a {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    #footer .footer-3 h4{
+        font-size: 25px;
+    }
+    #footer .footer-3 a {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .footer-7 p {
+        font-size: 10px;
+        font-weight: 500;
+    }
+    #footer-btn {
+        top: 0px;
+    }
+}
+
+/* Media Quries 500px below */
+@media only screen and (max-width:500px){
+    #banner h1 {
+        font-size: 28px;
+    }
+    #banner p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    #banner-btn-1 {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    #banner-btn-2 {
+        font-size: 14px;
+        padding: 6px 10px;
+        margin-left: 30px;
+    }
+    #veterinarian-1 p {
+        font-size: 14px;
+    }
+    #veterinarian-1 button {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    #service h1 {
+        font-size: 35px;
+    }
+    #service .service-p {
+        font-size: 15px;
+    }
+    #service .service-3 h3 {
+        font-size: 25px;
+    }
+    #service .service-3 p {
+        font-size: 14px;
+    }
+    #veterinarian-2 p {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    #veterinarian-2 button {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    #shop h1 {
+        font-size: 35px;
+    }
+    #shop .shop-p {
+        font-size: 15px;
+    }
+    .shop-3 button{
+        margin-bottom: 20px;
+    }
+    .shop-3 img {
+        margin-bottom: 20px;
+    }
+    #team h1 {
+        font-size: 35px;
+    }
+    #team .team-p {
+        font-size: 15px;
+    }
+    #blog h1 {
+        font-size: 35px;
+    }
+    #blog .blog-p {
+        font-size: 15px;
+    }
+    .post-border {
+        padding: 5px 12px
+    }
+    .post-border h5 {
+        font-size: 18px;
+    }
+    .post-border p {
+        font-size: 14px;
+    }
+    #footer .footer-3 h4 {
+        padding: 25px 0px 5px 0px;
+    }
+    .footer-7 p {
+        font-size: 14px;
+    }
+    #footer-search {
+        left: 5px;
+        /* top: 1px; */
+    }
+    #footer .footer-7 .social-icon i{
+        margin-top: 30px;
+        
+    }
+}
